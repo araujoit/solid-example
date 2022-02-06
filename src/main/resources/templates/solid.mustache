@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>		
+		{{>header}}
+		
+		<hr />
+
+		<section id="details">
+			{{#items}}
+				<h3>{{key}}</h3>
+				<span>{{value}}</span>
+			{{/items}}
+		</section>
+
+		<section id="references">
+			<h3>References</h3>
+			<ul>
+			{{#references}}
+				<li><a target="_blank" href="{{value}}">{{key}}</a></li>
+			{{/references}}
+			</ul>
+		</section>
+		
+		<hr />
+		
+		{{>footer}}
+		
+    </body>
+</html>
