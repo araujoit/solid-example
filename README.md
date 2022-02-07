@@ -8,3 +8,8 @@
 - <a href="./src/main/java/br/com/araujo/solid/l"><b>L</b> - Liskov Substitution (Substituição de Liskov)</a>
 - <a href="./src/main/java/br/com/araujo/solid/i"><b>I</b> - Interface Segregation (Segregação de Interface)</a>
 - <a href="./src/main/java/br/com/araujo/solid/d"><b>D</b> - Dependency Inversion (Inversão de Dependência)</a>
+
+<hr />
+
+### References:
+- <a target="_blank" href="https://www.baeldung.com/solid-principles">Solid Principles</a>
